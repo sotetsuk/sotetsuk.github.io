@@ -1,7 +1,8 @@
 # sotetsuk.github.io
 
 ## sotetsuk.net
-Personal website of @sotetsuk: [sotetsuk.net](http://sotetsuk.net)
+Personal website of @sotetsuk  
+URL: http://sotetsuk.net
 
 ## Related repository
 
