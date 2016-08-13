@@ -1,8 +1,8 @@
 # sotetsuk.github.io
 
-## sotetsuk.net
+## sotets.uk
 Personal website of @sotetsuk  
-URL: http://sotetsuk.net
+URL: http://sotets.uk
 
 ## Related repository
 
