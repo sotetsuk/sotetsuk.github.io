@@ -2,7 +2,7 @@
 
 ## sotets.uk
 Personal website of @sotetsuk  
-URL: http://sotets.uk
+URL: https://sotets.uk
 
 ## Related repository
 
