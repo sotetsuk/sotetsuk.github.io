@@ -4,7 +4,3 @@
 Personal website of @sotetsuk  
 URL: https://sotets.uk
 
-## Related repository
-
-- [sotetsuk/cv](https://github.com/sotetsuk/cv)
-- [sotetsuk/master_thesis](https://github.com/sotetsuk/master_thesis)
