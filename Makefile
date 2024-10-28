@@ -16,7 +16,7 @@ deploy:
 	git pull origin public
 	git rm -rf .
 	git commit -m "remove old files"
-	mv -r public/* ./
+	mv public/* ./
 	git add .
 	git commit -m "deploy new files"
 
