@@ -13,7 +13,7 @@ serve:
 
 deploy:
 	git checkout public
-	rm -rf theme/typo .gitmodules
+	rm -rf themes .gitmodules
 	git pull origin public
 	git rm -rf .
 	mv public/* ./
