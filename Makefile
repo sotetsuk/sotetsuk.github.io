@@ -18,5 +18,6 @@ deploy:
 	git commit -m "remove old files"
 	mv public/* ./
 	git add .
+	git rm --cached themes/typo
 	git commit -m "deploy new files"
 
