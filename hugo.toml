@@ -1,0 +1,81 @@
+baseURL = 'https://sotets.uk/'
+languageCode = 'en-us'
+title = 'Sotetsu Koyamada'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "Sotetsu Koyamada's website"
+
+# Appearance settings
+theme = 'white'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+Reinforcement Learning / Game AI
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "X"
+url = "https://x.com/sotetsuk"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/sotetsuk"
+
+[[params.social]]
+name = "GoogleScholar"
+url = "https://scholar.google.co.jp/citations?user=hPAPFVcAAAAJ"
+
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/user/"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
+
