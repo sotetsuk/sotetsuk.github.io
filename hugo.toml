@@ -1,4 +1,4 @@
-baseURL = 'https://sotets.uk/'
+baseURL = 'https://sotets.uk'
 languageCode = 'en-us'
 title = 'Sotetsu Koyamada'
 theme = 'typo'
