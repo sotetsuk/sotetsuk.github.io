@@ -16,8 +16,8 @@ deploy:
 	git pull origin public
 	git rm -rf .
 	git commit -m "remove old files"
+	rm -rf theme/typo
 	mv public/* ./
 	git add .
-	git rm --cached themes/typo
 	git commit -m "deploy new files"
 
