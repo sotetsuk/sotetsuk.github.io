@@ -13,10 +13,9 @@ serve:
 
 deploy:
 	git checkout public
+	rm -rf theme/typo
 	git pull origin public
 	git rm -rf .
-	git commit -m "remove old files"
-	rm -rf theme/typo
 	mv public/* ./
 	git add .
 	git commit -m "deploy new files"
