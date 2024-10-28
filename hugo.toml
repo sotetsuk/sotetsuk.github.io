@@ -16,14 +16,14 @@ colorPalette = 'default'
 hideHeader = false
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Hi!'
-homeIntroContent = """
-Reinforcement Learning / Game AI
-"""
+# homeIntroTitle = 'Hi!'
+# homeIntroContent = """
+# Reinforcement Learning / Game AI
+# """
 
 # Collection to display on home
-homeCollectionTitle = 'Posts'
-homeCollection = 'posts'
+# homeCollectionTitle = 'Posts'
+# homeCollection = 'posts'
 
 # Lists parameters
 paginationSize = 100
@@ -52,17 +52,17 @@ name = "linkedin"
 url = "https://www.linkedin.com/in/sotetsuk/"
 
 # Main menu pages
-[[params.menu]]
-name = "home"
-url = "/"
-
-[[params.menu]]
-name = "posts"
-url = "/posts"
-
-[[params.menu]]
-name = "about"
-url = "/about"
+# [[params.menu]]
+# name = "home"
+# url = "/"
+# 
+# [[params.menu]]
+# name = "posts"
+# url = "/posts"
+# 
+# [[params.menu]]
+# name = "about"
+# url = "/about"
 
 # Syntax highligth on code blocks
 [markup]
