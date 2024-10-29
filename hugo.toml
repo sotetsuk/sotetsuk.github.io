@@ -14,6 +14,7 @@ description = "Sotetsu Koyamada's website"
 theme = 'white'
 colorPalette = 'default'
 hideHeader = false
+math = true
 
 # Intro on main page, content is markdown
 # homeIntroTitle = 'Hi!'
@@ -79,3 +80,10 @@ categoryid = "categoryId"
 mapping = "pathname"
 theme = "preferred_color_scheme"
 
+[markup.goldmark]
+  [markup.goldmark.extensions]
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['\[', '\]'], ['$$', '$$']]
+        inline = [['\(', '\)']]
