@@ -12,7 +12,7 @@ serve:
 	hugo server --buildDrafts
 
 deploy:
-	git checkout public
+	git switch public
 	rm -rf themes .gitmodules
 	git pull origin public
 	git rm -rf .
