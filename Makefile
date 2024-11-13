@@ -13,7 +13,7 @@ serve:
 
 deploy:
 	git switch public
-	rm -rf themes .gitmodules
+	rm -rf themes 
 	git pull origin public
 	git rm -rf .
 	mv public/* ./
