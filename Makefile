@@ -13,7 +13,7 @@ serve:
 
 deploy:
 	git switch public
-	rm -rf themes 
+	rm -rf themes .hugo_build.lock
 	git pull origin public
 	git rm -rf .
 	mv public/* ./
