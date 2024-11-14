@@ -3,7 +3,7 @@ draft = false
 title = 'Sotetsu Koyamada'
 +++
 
-**Sotetsu Koyamada** is a researcher and engineer interested in reinforcement learning (RL), multi-agent systems, and game AI. 
+**Sotetsu Koyamada**, Ph.D., is a researcher and engineer interested in reinforcement learning (RL), multi-agent systems, and game AI. 
 I have been involved in the following projects:
 <!--- He obtained his Ph.D. from Kyoto University in Nov. 2024. --->
 
